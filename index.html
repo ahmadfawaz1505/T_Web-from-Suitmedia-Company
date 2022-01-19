@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+
+    </script>
+    <title>Screening Test - Frontend Developer Intern</title>
+  </head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+  <a class="navbar-brand" href="#">Company</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <div class="dropdown">
+        <button class="btn nav-link" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+          ABOUT
+        </button>
+        <div class="dropdown-menu"  aria-labelledby="dropdownMenu2">
+          <button class="dropdown-item" type="button">HISTORY</button>
+          <button class="dropdown-item" type="button">VISION MISSION</button>
+        </div>
+      </div>
+      <li class="nav-item">
+        <a class="nav-link mr-sm-3" href="#">OUR WORK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mr-sm-3" href="#">OUR TEAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!-- header  -->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/bg.jpg" class="d-block w-100" height="580px" alt="...">
+      <div class="tulisan">
+        <h3>THIS IS A PLACE WHERE TECHNOLOGY & <br>
+           CREATIVTY FUSED INTO DIGITAL CHEMISTRY
+         </h3>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <img src="images/about-bg.jpg" class="d-block w-100" height="580px" alt="...">
+      <div class="tulisan">
+        <h3>WE DON'T HAVE THE BEST BUT WE HAVE THE <br>
+          GREATEST TEAM
+        </h3>
+
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+
+<!-- BAGIAN ISI -->
+<div class="container">
+  <div class="isi">
+    <h4>OUR VALUES</h4>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md merah">
+            <img src="images/light.png" height="25px" width="15px" alt="">
+            <h6>Innovative</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+          <div class="col-md hijau">
+            <img src="images/bank.png" height="25px" width="15px" alt="">
+            <h6>Loyalty</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+          <div class="col-md biru">
+            <img src="images/balance-scale.png" height="25px" width="15px" alt="">
+            <h6>Respect</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+  </div>
+</div>
+
+<!-- caontact us -->
+<div class="container">
+  <div class="contact">
+    <h4>CONTACT US</h4>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <form >
+          <div class="form-group">
+            <label for="nama">Name</label>
+            <input required type="text" id="nama" class="form-control" name="" value="">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control">
+            <label for="message">Message</label>
+            <textarea required name="" class="form-control" id="message" rows="3" cols="80"></textarea>
+          </div>
+          <button type="submit" class="form-control btn btn-primary"  name="button">Submit</button>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+  <p>Copyright &copy; 2016. PT Company </p>
+  <img src="images/facebook-official.png" alt="">
+  <img src="images/twitter.png" alt="">
+</div>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  -->
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+h4{
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+}
+h6{
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.carousel-inner{
+  position: relative;
+}
+.carousel-inner .tulisan{
+  top: 350px;
+  left: 80px;
+  position: absolute;
+  color: white;
+  opacity: 0.79;
+  padding-right: 60px;
+  padding-left: 10px;
+  background-color: black;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    /* background-color: #404040; */
+}
+.dropdown-menu{
+  padding: 0px;
+}
+#dropdownMenu2{
+  margin-right: 17px;
+  padding-top: 7.8px;
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: white;
+  /* font-weight: bold; */
+}
+
+.isi{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.merah{
+  background-image: url("images/merahbaru.png");
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  margin-top: 35px;
+}
+.merah p{
+  margin: 0px 20px;
+}
+
+.hijau{
+  background-image: url("images/hijaubaru.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  margin-top: 35px;
+}
+.hijau p{
+  margin: 0px 20px;
+}
+.biru{
+  background-image: url("images/birubaru.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  margin-top: 35px;
+}
+.contact{
+  text-align: center;
+}
+.form-group{
+  text-align: left;
+}
+.footer{
+  padding: 10px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer img{
+  height: 25px;
+  padding-right: 10px;
+}
